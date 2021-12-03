@@ -59,11 +59,11 @@ jobs:
     environment: production
     
     env:
-      # ARM_SUBSCRIPTION_ID: ad3b85d9-1354-4383-a30c-6383716082e4
-      # ARM_TENANT_ID: 53a3b2a4-fb4f-4bea-8637-b567de9faebc
-      # ARM_CLIENT_ID: b87937ff-6336-4e21-a621-764be6b9020e
-      # ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
-      # TF_VAR_hec_token_value: ${{ secrets.TF_VAR_HEC_TOKEN }}
+      ARM_SUBSCRIPTION_ID: 67230cd8-9c70-4106-bf69-124bcafb5e56
+      ARM_TENANT_ID: dcd55fb4-e85c-4629-a054-74b62d21e6aa
+      ARM_CLIENT_ID: 1adf9751-d19e-45e1-8b1c-5922a6f4d418
+      ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+      TF_VAR_hec_token_value: ${{ secrets.TF_VAR_HEC_TOKEN }}
       
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
