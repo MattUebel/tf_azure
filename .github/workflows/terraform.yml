@@ -61,7 +61,7 @@ jobs:
     env:
       ARM_SUBSCRIPTION_ID: 67230cd8-9c70-4106-bf69-124bcafb5e56
       ARM_TENANT_ID: dcd55fb4-e85c-4629-a054-74b62d21e6aa
-      ARM_CLIENT_ID: 42ba225d-2232-4ba7-95f2-3998b9e057ac
+      ARM_CLIENT_ID: 56fab32c-540f-46f7-80d6-b3bac845190b
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
       TF_VAR_hec_token_value: ${{ secrets.TF_VAR_HEC_TOKEN }}
       
